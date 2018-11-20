@@ -1,0 +1,32 @@
+@font-face {
+  font-family: True_Lies;
+  src: url(True_Lies.ttf);
+}
+
+body {
+  background-image: url("media/giphy.gif");
+  background-size: cover;
+}
+
+#myName {
+  margin: 1em 22%;
+  width: 50%;
+  margin-top: 200px;
+  padding: 60px;
+  text-align: center;
+  font-family: True_Lies;
+  border: 3px solid #262626;
+  background-color: lightgrey;
+  border-radius: 10px;
+  transition: background .5s;
+  font-size: 100px;
+  text-shadow: 4px 4px black;
+}
+
+h1  {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  text-shadow: 4px 4px black;
+  font-family: True_Lies;
+}
